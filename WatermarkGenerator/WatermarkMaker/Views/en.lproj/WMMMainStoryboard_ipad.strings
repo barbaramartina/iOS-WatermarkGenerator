@@ -1,0 +1,33 @@
+
+/* Class = "IBUINavigationItem"; title = "Settings"; ObjectID = "1dd-S6-iss"; */
+"1dd-S6-iss.title" = "Settings";
+
+/* Class = "IBUINavigationItem"; title = "Support"; ObjectID = "BSK-km-PEB"; */
+"BSK-km-PEB.title" = "Support";
+
+/* Class = "IBUIButton"; normalTitle = "Settings"; ObjectID = "CbX-2J-Zxz"; */
+"CbX-2J-Zxz.normalTitle" = "Settings";
+
+/* Class = "IBUILabel"; text = "Enter the text you'd like to use in your watermarks"; ObjectID = "ORE-Tx-ogh"; */
+"ORE-Tx-ogh.text" = "Select the text, color, size and font family to use";
+
+/* Class = "IBUIButton"; normalTitle = "Contact us for support"; ObjectID = "azb-mH-jki"; */
+"azb-mH-jki.normalTitle" = "Contact us for support";
+
+/* Class = "IBUILabel"; text = "Watermark text:"; ObjectID = "drD-zU-gmu"; */
+"drD-zU-gmu.text" = "Watermark text:";
+
+/* Class = "IBUIButton"; normalTitle = "Share your idea with us"; ObjectID = "edl-vG-D6c"; */
+"edl-vG-D6c.normalTitle" = "Share your idea with us";
+
+/* Class = "IBUILabel"; text = "Want to make a suggestion?"; ObjectID = "je5-oE-ndR"; */
+"je5-oE-ndR.text" = "Want to make a suggestion?";
+
+/* Class = "IBUILabel"; text = "Need help?"; ObjectID = "uHF-qN-J3d"; */
+"uHF-qN-J3d.text" = "Need help?";
+
+/* Class = "IBUINavigationItem"; title = "Watermark Maker"; ObjectID = "vTH-gJ-Hsj"; */
+"vTH-gJ-Hsj.title" = "Watermark Maker";
+
+/* Class = "IBUITextField"; placeholder = "watermark text..."; ObjectID = "wdP-g9-V9T"; */
+"wdP-g9-V9T.placeholder" = "watermark text...";

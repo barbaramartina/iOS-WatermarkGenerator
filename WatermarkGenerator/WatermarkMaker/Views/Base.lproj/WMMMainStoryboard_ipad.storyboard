@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="meh-dT-Swn">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller - Watermark Maker-->
+        <scene sceneID="oxr-qz-aSk">
+            <objects>
+                <viewController storyboardIdentifier="homeVC" id="RKH-Zu-5as" customClass="WMMHomeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1zl-Yq-ih9"/>
+                        <viewControllerLayoutGuide type="bottom" id="rOb-PT-dNZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OV6-pR-aNS">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qpI-fU-3Gt">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JTP-7G-1Mo">
+                                <rect key="frame" x="0.0" y="64" width="768" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="8dL-ib-8gT"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="118" placeholderIntrinsicHeight="42" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iww-Jx-wnh">
+                                <rect key="frame" x="643" y="71" width="118" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" image="btn-arrow-down">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="openCloseMenu:" destination="RKH-Zu-5as" eventType="touchUpInside" id="maQ-aU-FGa"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="412" placeholderIntrinsicHeight="135" text="Click on the &quot;+&quot; button to select a picture to stamp" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" preferredMaxLayoutWidth="412" translatesAutoresizingMaskIntoConstraints="NO" id="xOd-EP-bFU">
+                                <rect key="frame" x="178" y="176" width="412" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JTP-7G-1Mo" firstAttribute="centerY" secondItem="Iww-Jx-wnh" secondAttribute="centerY" id="Acw-LQ-dzm"/>
+                            <constraint firstItem="qpI-fU-3Gt" firstAttribute="top" secondItem="OV6-pR-aNS" secondAttribute="top" id="CJe-M4-oxp"/>
+                            <constraint firstAttribute="trailing" secondItem="Iww-Jx-wnh" secondAttribute="trailing" constant="7" id="Hpq-bM-ObL"/>
+                            <constraint firstItem="JTP-7G-1Mo" firstAttribute="leading" secondItem="OV6-pR-aNS" secondAttribute="leading" id="Js9-uh-2ib"/>
+                            <constraint firstAttribute="trailing" secondItem="qpI-fU-3Gt" secondAttribute="trailing" id="RNb-BC-vhy"/>
+                            <constraint firstAttribute="trailing" secondItem="JTP-7G-1Mo" secondAttribute="trailing" id="Vgh-WQ-FLF"/>
+                            <constraint firstItem="qpI-fU-3Gt" firstAttribute="leading" secondItem="OV6-pR-aNS" secondAttribute="leading" id="iqP-kL-80V"/>
+                            <constraint firstItem="JTP-7G-1Mo" firstAttribute="top" secondItem="1zl-Yq-ih9" secondAttribute="bottom" id="muU-Zu-n0j"/>
+                            <constraint firstItem="rOb-PT-dNZ" firstAttribute="top" secondItem="qpI-fU-3Gt" secondAttribute="bottom" id="ywe-FU-fvF"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Watermark Maker" id="vTH-gJ-Hsj">
+                        <barButtonItem key="leftBarButtonItem" image="btn-menu-alt" id="FrN-24-N67">
+                            <color key="tintColor" red="0.771484375" green="0.038768636320000001" blue="0.1234256294" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="openSideMenuButtonPressed:" destination="RKH-Zu-5as" id="uzZ-D8-iDp"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="btn_add" id="b7T-fa-NMk">
+                            <color key="tintColor" red="0.771484375" green="0.038768636320000001" blue="0.1234256294" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="selectPhotoButtonPressed:" destination="RKH-Zu-5as" id="Xeu-Se-xEO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="introText" destination="xOd-EP-bFU" id="ZvU-fv-H70"/>
+                        <outlet property="openPhotoMenuButton" destination="Iww-Jx-wnh" id="Ieq-zP-B47"/>
+                        <outlet property="photo" destination="qpI-fU-3Gt" id="kVD-zd-oUE"/>
+                        <outlet property="photoMenuBackground" destination="JTP-7G-1Mo" id="69h-r8-h3r"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cwO-Ko-1Bp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1985" y="-269"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Xin-I8-NMN">
+            <objects>
+                <navigationController storyboardIdentifier="navigationVC" automaticallyAdjustsScrollViewInsets="NO" id="meh-dT-Swn" customClass="WMMNavigationController" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Uky-xq-aQM">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                            <color key="textColor" red="0.771484375" green="0.038768636320000001" blue="0.1234256294" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="RKH-Zu-5as" kind="relationship" relationship="rootViewController" id="5Qf-2t-SCi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gLK-0d-cmr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1011" y="-269"/>
+        </scene>
+        <!--Settings View Controller - Settings-->
+        <scene sceneID="R9a-yc-ddL">
+            <objects>
+                <viewController storyboardIdentifier="settingsVC" id="9ga-v4-bD8" customClass="WMMSettingsViewController" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="Settings" id="1dd-S6-iss"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q5q-AJ-OVx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2806" y="-257"/>
+        </scene>
+        <!--Support View Controller - Support-->
+        <scene sceneID="JQs-VO-emJ">
+            <objects>
+                <viewController storyboardIdentifier="supportVC" id="dlz-bM-tnE" customClass="WMMSupportViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cPv-Cr-6of"/>
+                        <viewControllerLayoutGuide type="bottom" id="yHX-rg-Rs9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SVi-Ae-B8d">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Need help?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHF-qN-J3d">
+                                <rect key="frame" x="188" y="176" width="315" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="34"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="keyPath" value="settingsTitle"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="azb-mH-jki">
+                                <rect key="frame" x="313" y="251" width="345" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="26"/>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="13" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="3" maxY="0.0"/>
+                                <state key="normal" title="Contact us for support" image="btn-email">
+                                    <color key="titleColor" red="0.82352941180000006" green="0.078431372550000003" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="helpButtonPressed:" destination="dlz-bM-tnE" eventType="touchUpInside" id="RPL-fN-QiN"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Want to make a suggestion?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="je5-oE-ndR">
+                                <rect key="frame" x="188" y="348" width="470" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="34"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="keyPath" value="settingsTitle"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edl-vG-D6c">
+                                <rect key="frame" x="313" y="464" width="380" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="26"/>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="13" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="3" maxY="0.0"/>
+                                <state key="normal" title="Share your idea with us" image="btn-suggestion">
+                                    <color key="titleColor" red="0.82352941180000006" green="0.078431372550000003" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="suggestionButtonPressed:" destination="dlz-bM-tnE" eventType="touchUpInside" id="QmE-Mg-iDL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Support" id="BSK-km-PEB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rwY-4h-eiv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2822" y="918"/>
+        </scene>
+        <!--Side Menu View Controller-->
+        <scene sceneID="4GA-W5-0JV">
+            <objects>
+                <viewController storyboardIdentifier="sideMenuVC" id="6K1-gE-wY7" customClass="WMMSideMenuViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="F9b-4d-dF8"/>
+                        <viewControllerLayoutGuide type="bottom" id="DhH-Fp-y8U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HKe-13-wUP">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CbX-2J-Zxz">
+                                <rect key="frame" x="77" y="119" width="305" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="42"/>
+                                <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Settings" image="btn-settings">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="prototypeButton" destination="CbX-2J-Zxz" id="nOW-HV-wuJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jdt-7O-Qpt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1011" y="-1433"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn-arrow-down" width="24" height="24"/>
+        <image name="btn-email" width="32" height="32"/>
+        <image name="btn-menu-alt" width="22" height="22"/>
+        <image name="btn-settings" width="24" height="24"/>
+        <image name="btn-suggestion" width="32" height="32"/>
+        <image name="btn_add" width="22" height="22"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="lightContent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

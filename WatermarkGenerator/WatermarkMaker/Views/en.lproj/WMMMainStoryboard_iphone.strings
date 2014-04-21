@@ -1,0 +1,18 @@
+
+/* Class = "IBUINavigationItem"; title = "Watermark Maker"; ObjectID = "Bj8-jb-01O"; */
+"Bj8-jb-01O.title" = "Watermark Maker";
+
+/* Class = "IBUILabel"; text = "Watermark text:"; ObjectID = "CUi-PP-IEA"; */
+"CUi-PP-IEA.text" = "Watermark text:";
+
+/* Class = "IBUILabel"; text = "Enter the text you'd like to use in your watermarks"; ObjectID = "j0g-pj-fKE"; */
+"j0g-pj-fKE.text" = "Select the text, color, size and font family to use";
+
+/* Class = "IBUINavigationItem"; title = "Settings"; ObjectID = "pkK-la-msv"; */
+"pkK-la-msv.title" = "Settings";
+
+/* Class = "IBUIButton"; normalTitle = "Settings"; ObjectID = "psJ-58-Zdk"; */
+"psJ-58-Zdk.normalTitle" = "Settings";
+
+/* Class = "IBUITextField"; placeholder = "watermark text..."; ObjectID = "xro-3I-JHB"; */
+"xro-3I-JHB.placeholder" = "watermark text...";

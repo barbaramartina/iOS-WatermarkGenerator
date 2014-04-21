@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>39A4AAC5-DA99-45DB-B7ED-342245ED8C90</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WatermarkMaker</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0AFBA776-6A01-4191-B9FB-337698817DC5</key>
+		<string>https://bitbucket.org/Barbaramartina/watermarkmaker.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WatermarkMaker.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0AFBA776-6A01-4191-B9FB-337698817DC5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/Barbaramartina/watermarkmaker.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0AFBA776-6A01-4191-B9FB-337698817DC5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0AFBA776-6A01-4191-B9FB-337698817DC5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WatermarkMaker</string>
+		</dict>
+	</array>
+</dict>
+</plist>

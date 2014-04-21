@@ -1,0 +1,45 @@
+
+/* Class = "IBUINavigationItem"; title = "Settings"; ObjectID = "1dd-S6-iss"; */
+"1dd-S6-iss.title" = "Configuración";
+
+/* Class = "IBUILabel"; text = "Preview"; ObjectID = "55Q-Kz-t2l"; */
+"55Q-Kz-t2l.text" = "Vista previa";
+
+/* Class = "IBUILabel"; text = "Color:"; ObjectID = "7WY-Zl-lW1"; */
+"7WY-Zl-lW1.text" = "Color:";
+
+/* Class = "IBUINavigationItem"; title = "Support"; ObjectID = "BSK-km-PEB"; */
+"BSK-km-PEB.title" = "Soporte";
+
+/* Class = "IBUIButton"; normalTitle = "Settings"; ObjectID = "CbX-2J-Zxz"; */
+"CbX-2J-Zxz.normalTitle" = "Configuración";
+
+/* Class = "IBUITextField"; placeholder = "watermark text..."; ObjectID = "ENe-04-Tg3"; */
+"ENe-04-Tg3.placeholder" = " texto...";
+
+/* Class = "IBUILabel"; text = "Text:"; ObjectID = "MD9-Yk-YsJ"; */
+"MD9-Yk-YsJ.text" = "Texto:";
+
+/* Class = "IBUILabel"; text = "Size:"; ObjectID = "NFa-Fq-Zlz"; */
+"NFa-Fq-Zlz.text" = "Tamaño:";
+
+/* Class = "IBUIButton"; normalTitle = "Contact us for support"; ObjectID = "azb-mH-jki"; */
+"azb-mH-jki.normalTitle" = "Contáctanos por soporte";
+
+/* Class = "IBUIButton"; normalTitle = "Share your idea with us"; ObjectID = "edl-vG-D6c"; */
+"edl-vG-D6c.normalTitle" = "Comparte tu idea con nosotros";
+
+/* Class = "IBUILabel"; text = "Want to make a suggestion?"; ObjectID = "je5-oE-ndR"; */
+"je5-oE-ndR.text" = "¿Quieres hacernos alguna sugerencia?";
+
+/* Class = "IBUILabel"; text = "Font:"; ObjectID = "kjT-g9-Zta"; */
+"kjT-g9-Zta.text" = "Fuente:";
+
+/* Class = "IBUILabel"; text = "Need help?"; ObjectID = "uHF-qN-J3d"; */
+"uHF-qN-J3d.text" = "¿Necesitas ayuda?";
+
+/* Class = "IBUINavigationItem"; title = "Watermark Maker"; ObjectID = "vTH-gJ-Hsj"; */
+"vTH-gJ-Hsj.title" = "Watermark Maker";
+
+/* Class = "IBUILabel"; text = "Select the text, color, size and font family to use"; ObjectID = "zP3-Gd-5OA"; */
+"zP3-Gd-5OA.text" = "Selecciona el color, fuente, texto y tamaño de fuente";

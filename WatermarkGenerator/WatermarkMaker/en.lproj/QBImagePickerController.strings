@@ -1,0 +1,10 @@
+/* 
+  QBImagePickerController.strings
+  WatermarkMaker
+
+  Created by Barbara Rodeker on 2/21/14.
+  Copyright (c) 2014 Barbara Martina Rodeker. All rights reserved.
+*/
+
+"format_photos" = "%d Photos";
+"format_videos" = "%d Videos";

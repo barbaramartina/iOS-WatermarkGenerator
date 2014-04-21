@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  WatermarkMaker
+
+  Created by Barbara Rodeker on 2/21/14.
+  Copyright (c) 2014 Barbara Martina Rodeker. All rights reserved.
+*/
+
+"Select your photo" = "Selecciona una foto";
+"Here is a photo for you" = "Tenemos una foto para tí";
+"Saving photo..." = "Guardando foto...";
+
+/********** Emails ************/
+"WMMShareBodyText" = "<br><br>-------------<br> Esta foto fue realizada utilizando <a href=\"http://appstore.com/watermarkmaker\">Watermark Maker</a>, una excelente aplicación para agregar marcas de agua a tus imágenes favoritas";
+"WMMSupportTitle" = "Soporte - Ayuda";
+"WMMSupportBody" = "<br><br>-----------<br>";
+"WMMSuggestionTitle" = "Watermark Maker - Sugerencias";
+"WMMSuggestionBody" = "<br><br>-----------<br>";
+
+/********** Menu items ********/
+"Settings" = "Configuración";
+"Support" = "Soporte";
+
+/********** Settings *********/
+"Watermark text here!" = "Pon tu texto aquí...";

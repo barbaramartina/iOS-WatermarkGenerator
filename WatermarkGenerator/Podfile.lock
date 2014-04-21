@@ -1,0 +1,86 @@
+PODS:
+  - AFNetworking (1.3.3)
+  - CLSideMenu (0.0.1)
+  - Color-Picker-for-iOS (0.1.1)
+  - DLAlertView (1.1.1)
+  - GPUImage (0.1.2)
+  - HMSideMenu (1.1.0)
+  - JSONKit (1.5pre)
+  - libextobjc (0.4):
+    - libextobjc/EXTADT
+    - libextobjc/EXTConcreteProtocol
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTNil
+    - libextobjc/EXTSafeCategory
+    - libextobjc/EXTScope
+    - libextobjc/EXTSelectorChecking
+    - libextobjc/EXTSynthesize
+    - libextobjc/NSInvocation+EXT
+    - libextobjc/NSMethodSignature+EXT
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+  - libextobjc/EXTADT (0.4):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.4):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.4):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.4):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.4):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.4):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.4):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.4):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSInvocation+EXT (0.4):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSMethodSignature+EXT (0.4):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4)
+  - libextobjc/UmbrellaHeader (0.4)
+  - MBProgressHUD (0.8)
+  - PixateFreestyle (2.1.2)
+  - SEQBImagePickerController (0.0.1)
+  - TestFlightSDK (3.0.0)
+  - UITintedButton (0.0.1)
+
+DEPENDENCIES:
+  - AFNetworking (= 1.3.3)
+  - CLSideMenu (= 0.0.1)
+  - Color-Picker-for-iOS (= 0.1.1)
+  - DLAlertView (= 1.1.1)
+  - GPUImage (= 0.1.2)
+  - HMSideMenu (= 1.1.0)
+  - JSONKit (from `~/Desktop/Projects/Personal/watermark-maker/WatermarkMaker/CustomPodSpecs`)
+  - libextobjc (= 0.4)
+  - MBProgressHUD (= 0.8)
+  - PixateFreestyle (= 2.1.2)
+  - SEQBImagePickerController (= 0.0.1)
+  - TestFlightSDK (= 3.0.0)
+  - UITintedButton (from `~/Desktop/Projects/Personal/watermark-maker/WatermarkMaker/CustomPodSpecs`)
+
+EXTERNAL SOURCES:
+  JSONKit:
+    :podspec: ~/Desktop/Projects/Personal/watermark-maker/WatermarkMaker/CustomPodSpecs
+  UITintedButton:
+    :podspec: ~/Desktop/Projects/Personal/watermark-maker/WatermarkMaker/CustomPodSpecs
+
+SPEC CHECKSUMS:
+  AFNetworking: 61fdd49e2ffe6380378df37b3b6e70630bb9dd66
+  CLSideMenu: bfd9cbb40c30766c28e72f0c709daa9e10250540
+  Color-Picker-for-iOS: 7859a5b63273f630fa5206eaa5a16e5a00782ed7
+  DLAlertView: 15b56e8a8afaa13cc6ba519f0e4284b0970ffa4a
+  GPUImage: 007145faa0e27f1ddbcab93e07f026c9776e2fa2
+  HMSideMenu: 3a359e321b90045d64a5e7ad9165d4b0f20c828a
+  JSONKit: 0e771281de49d7019c0bfc883e544549528a328b
+  libextobjc: 2c9fc8226f0f38e562587f65172f93f0c9b4a47a
+  MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
+  PixateFreestyle: 567c6fdbe4f9ffbdfbd329a66f3e9bcec1e9bd38
+  SEQBImagePickerController: 7a402ce3b2038e08738a6534e2c0f3855318aa4c
+  TestFlightSDK: fe0567a897456b6f65b180541892ef0154986e01
+  UITintedButton: 871fbaba892d90fe151e0042a5d78ab0b63453de
+
+COCOAPODS: 0.32.1

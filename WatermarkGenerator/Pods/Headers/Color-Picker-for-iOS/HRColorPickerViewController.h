@@ -1,0 +1,1 @@
+../../Color-Picker-for-iOS/ColorPicker/HRColorPickerViewController.h

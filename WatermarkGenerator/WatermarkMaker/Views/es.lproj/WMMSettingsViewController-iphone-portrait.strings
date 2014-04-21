@@ -1,0 +1,21 @@
+
+/* Class = "IBUILabel"; text = "Size:"; ObjectID = "5vd-BW-uSc"; */
+"5vd-BW-uSc.text" = "Tamaño:";
+
+/* Class = "IBUILabel"; text = "Text:"; ObjectID = "GPr-Ng-iwq"; */
+"GPr-Ng-iwq.text" = "Texto:";
+
+/* Class = "IBUILabel"; text = "Font:"; ObjectID = "SpB-iu-O3b"; */
+"SpB-iu-O3b.text" = "Fuente:";
+
+/* Class = "IBUITextField"; placeholder = "watermark text..."; ObjectID = "Uee-Ge-fGr"; */
+"Uee-Ge-fGr.placeholder" = "texto aquí...";
+
+/* Class = "IBUILabel"; text = "Color:"; ObjectID = "W5J-zo-zl0"; */
+"W5J-zo-zl0.text" = "Color:";
+
+/* Class = "IBUILabel"; text = "Select the text, color, size and font family to use"; ObjectID = "eDD-QD-VcT"; */
+"eDD-QD-VcT.text" = "Selecciona las propiedades de la fuente a usar";
+
+/* Class = "IBUILabel"; text = "Preview"; ObjectID = "uSq-ao-SBQ"; */
+"uSq-ao-SBQ.text" = "Vista previa";

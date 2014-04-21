@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  WatermarkMaker
+
+  Created by Barbara Rodeker on 2/21/14.
+  Copyright (c) 2014 Barbara Martina Rodeker. All rights reserved.
+*/
+
+"Select your photo" = "Select your photo";
+"Here is a photo for you" = "Here is a photo for you";
+"Saving photo..." = "Saving photo...";
+
+/********** Emails ************/
+"WMMShareBodyText" = "<br><br>-------------<br> This photo was made using <a href=\"http://appstore.com/watermarkmaker\">Watermark Maker</a>, an amazing app to stamp your pictures.";
+"WMMSupportTitle" = "Support - Help";
+"WMMSupportBody" = "<br><br>-----------<br>";
+"WMMSuggestionTitle" = "Watermark Maker - Suggestions";
+"WMMSuggestionBody" = "<br><br>-----------<br>";
+
+/********** Menu items ********/
+"Settings" = "Settings";
+"Support" = "Support";
+
+/********** Settings *********/
+"Watermark text here!" = "Watermark text here!";

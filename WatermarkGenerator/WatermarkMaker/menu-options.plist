@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Settings</string>
+		<key>tag</key>
+		<integer>0</integer>
+		<key>icon</key>
+		<string>btn-settings</string>
+		<key>option-type</key>
+		<string>0</string>
+		<key>option-value</key>
+		<string>settingsVC</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Support</string>
+		<key>tag</key>
+		<integer>1</integer>
+		<key>icon</key>
+		<string>btn-support</string>
+		<key>option-type</key>
+		<string>0</string>
+		<key>option-value</key>
+		<string>supportVC</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Rate us</string>
+		<key>tag</key>
+		<integer>2</integer>
+		<key>icon</key>
+		<string>btn-heart</string>
+		<key>option-type</key>
+		<string>1</string>
+		<key>option-value</key>
+		<string>http://appstore.com/watermarkmaker</string>
+	</dict>
+</array>
+</plist>

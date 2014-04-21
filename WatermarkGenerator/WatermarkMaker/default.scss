@@ -1,0 +1,36 @@
+/*************** VARIABLES **************/
+$mainColor : rgb(197,10,31);
+$mainFont : "Baskerville";
+
+/*************** NAVIGATION **************/
+navigation-bar {
+  -ios-tint-color: $mainColor;
+}
+
+navigation-bar title {
+  color: $mainColor;
+  @media(device:ipad){
+     font : $mainFont;
+  }
+}
+
+navigation-bar button-appearance {
+  color: $mainColor;
+  @media(device:ipad){
+     font : $mainFont;
+  }
+}
+
+/*************** SETTINGS **************/
+#settingsTitle {
+
+}
+
+#settingsTextField {
+
+}
+
+#settingsHelpText {
+
+}
+

@@ -6,3 +6,8 @@
 #
 # Pods/
 
+.DS_Store
+WatermarkGenerator/WatermarkMaker.xcodeproj/xcuserdata/*.*
+WatermarkGenerator/WatermarkMaker.xcworkspace/*.*
+WatermarkGenerator/WatermarkMaker.xcworkspace/
+WatermarkGenerator/WatermarkMaker/.DS_Store
