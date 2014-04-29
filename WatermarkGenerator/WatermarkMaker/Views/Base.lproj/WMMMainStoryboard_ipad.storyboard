@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="meh-dT-Swn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="meh-dT-Swn">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--Home View Controller - Watermark Maker-->
@@ -131,48 +131,54 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Need help?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHF-qN-J3d">
-                                <rect key="frame" x="188" y="176" width="315" height="31"/>
+                                <rect key="frame" x="188" y="176" width="315" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="34"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="34"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="keyPath" value="settingsTitle"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="azb-mH-jki">
-                                <rect key="frame" x="313" y="251" width="345" height="32"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="azb-mH-jki">
+                                <rect key="frame" x="188" y="252" width="345" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="26"/>
                                 <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="13" maxY="0.0"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="3" maxY="0.0"/>
-                                <state key="normal" title="Contact us for support" image="btn-email">
+                                <state key="normal" title="Contact us for support">
                                     <color key="titleColor" red="0.82352941180000006" green="0.078431372550000003" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="styleClass" value="supportButton"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="helpButtonPressed:" destination="dlz-bM-tnE" eventType="touchUpInside" id="RPL-fN-QiN"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Want to make a suggestion?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="je5-oE-ndR">
-                                <rect key="frame" x="188" y="348" width="470" height="36"/>
+                                <rect key="frame" x="188" y="348" width="470" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="34"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="34"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="keyPath" value="settingsTitle"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edl-vG-D6c">
-                                <rect key="frame" x="313" y="464" width="380" height="32"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edl-vG-D6c">
+                                <rect key="frame" x="188" y="426" width="380" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Baskerville-SemiBold" family="Baskerville" pointSize="26"/>
                                 <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="13" maxY="0.0"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="3" maxY="0.0"/>
-                                <state key="normal" title="Share your idea with us" image="btn-suggestion">
+                                <state key="normal" title="Share your idea with us">
                                     <color key="titleColor" red="0.82352941180000006" green="0.078431372550000003" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="styleClass" value="supportButton"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="suggestionButtonPressed:" destination="dlz-bM-tnE" eventType="touchUpInside" id="QmE-Mg-iDL"/>
                                 </connections>
@@ -221,10 +227,8 @@
     </scenes>
     <resources>
         <image name="btn-arrow-down" width="24" height="24"/>
-        <image name="btn-email" width="32" height="32"/>
         <image name="btn-menu-alt" width="22" height="22"/>
         <image name="btn-settings" width="24" height="24"/>
-        <image name="btn-suggestion" width="32" height="32"/>
         <image name="btn_add" width="22" height="22"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

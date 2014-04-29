@@ -1,0 +1,21 @@
+
+/* Class = "IBUILabel"; text = "Preview"; ObjectID = "6Sj-2I-dNN"; */
+"6Sj-2I-dNN.text" = "Vista Previa";
+
+/* Class = "IBUILabel"; text = "Size:"; ObjectID = "7ii-8l-PQb"; */
+"7ii-8l-PQb.text" = "Tamaño:";
+
+/* Class = "IBUILabel"; text = "Select the text, color, size and font family to use"; ObjectID = "PVu-Ec-106"; */
+"PVu-Ec-106.text" = "Selecciona el color, la fuente y el tamaño";
+
+/* Class = "IBUILabel"; text = "Text:"; ObjectID = "hVZ-Sk-pSG"; */
+"hVZ-Sk-pSG.text" = "Texto:";
+
+/* Class = "IBUILabel"; text = "Font:"; ObjectID = "qEz-ih-yUu"; */
+"qEz-ih-yUu.text" = "Fuente:";
+
+/* Class = "IBUILabel"; text = "Color:"; ObjectID = "uG2-cj-J0B"; */
+"uG2-cj-J0B.text" = "Color:";
+
+/* Class = "IBUITextField"; placeholder = "watermark text..."; ObjectID = "udw-Hf-rlJ"; */
+"udw-Hf-rlJ.placeholder" = "marca de agua...";

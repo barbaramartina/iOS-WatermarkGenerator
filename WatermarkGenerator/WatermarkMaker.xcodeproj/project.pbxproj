@@ -38,8 +38,8 @@
 		76B0AC9818B3FCF900C39A32 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B0AC9718B3FCF900C39A32 /* CoreVideo.framework */; };
 		76B0AC9A18B3FD0100C39A32 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B0AC9918B3FD0100C39A32 /* OpenGLES.framework */; };
 		76B0AC9C18B3FD0C00C39A32 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B0AC9B18B3FD0C00C39A32 /* AVFoundation.framework */; };
-		76B2875218F2F1FC0041D955 /* WMMSettingsViewController-ipad-landscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B2875118F2F1FC0041D955 /* WMMSettingsViewController-ipad-landscape.xib */; };
-		76B2875418F2F20E0041D955 /* WMMSettingsViewController-ipad-portrait.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B2875318F2F20E0041D955 /* WMMSettingsViewController-ipad-portrait.xib */; };
+		76B41F04190FEF0200949F00 /* WMMSettingsViewController-ipad-landscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B41F06190FEF0200949F00 /* WMMSettingsViewController-ipad-landscape.xib */; };
+		76B41F0B190FEF1B00949F00 /* WMMSettingsViewController-ipad-portrait.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76B41F0D190FEF1B00949F00 /* WMMSettingsViewController-ipad-portrait.xib */; };
 		76B934E918B92BE30053C239 /* GPUImageOutput+GPUImageOutput_WMM.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B934E818B92BE30053C239 /* GPUImageOutput+GPUImageOutput_WMM.m */; };
 		76BB341F18EF5BEF00977278 /* WMMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BB341E18EF5BEF00977278 /* WMMBaseViewController.m */; };
 		76BB342018EF68F600977278 /* WMMSettingsViewController-iphone-landscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76BB342218EF68F600977278 /* WMMSettingsViewController-iphone-landscape.xib */; };
@@ -52,7 +52,6 @@
 /* Begin PBXFileReference section */
 		2EFC48BD8B964602A70B14C7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		412E69FB349E4B3491BDAA05 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		7600017F18E310070098207B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/WMMMainStoryboard_ipad.strings; sourceTree = "<group>"; };
 		7620DDFA18B7DE69009453CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/WMMMainStoryboard_iphone.storyboard; sourceTree = "<group>"; };
 		7620DDFB18B7DE69009453CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/WMMMainStoryboard_ipad.storyboard; sourceTree = "<group>"; };
 		7620DDFF18B7E32F009453CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -95,7 +94,6 @@
 		76A13A0418E5CE6F009A4385 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/WMMMainStoryboard_ipad.strings; sourceTree = "<group>"; };
 		76A13A0518E5CE6F009A4385 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		76A13A0618E5CE6F009A4385 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/QBImagePickerController.strings; sourceTree = "<group>"; };
-		76A6415618C4D84C004BECEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/WMMMainStoryboard_iphone.strings; sourceTree = "<group>"; };
 		76A6415718C4EA0A004BECEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		76A6415918C4EB7A004BECEC /* WMMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMConstants.h; sourceTree = "<group>"; };
 		76AA412B18C7E8AA00E5B387 /* WMMSupportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMMSupportViewController.h; path = ViewControllers/WMMSupportViewController.h; sourceTree = "<group>"; };
@@ -108,8 +106,14 @@
 		76B0AC9718B3FCF900C39A32 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		76B0AC9918B3FD0100C39A32 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		76B0AC9B18B3FD0C00C39A32 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		76B2875118F2F1FC0041D955 /* WMMSettingsViewController-ipad-landscape.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "WMMSettingsViewController-ipad-landscape.xib"; path = "Views/WMMSettingsViewController-ipad-landscape.xib"; sourceTree = "<group>"; };
-		76B2875318F2F20E0041D955 /* WMMSettingsViewController-ipad-portrait.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "WMMSettingsViewController-ipad-portrait.xib"; path = "Views/WMMSettingsViewController-ipad-portrait.xib"; sourceTree = "<group>"; };
+		76B41F05190FEF0200949F00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Base.lproj/WMMSettingsViewController-ipad-landscape.xib"; sourceTree = "<group>"; };
+		76B41F08190FEF0600949F00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/WMMSettingsViewController-ipad-landscape.strings"; sourceTree = "<group>"; };
+		76B41F0A190FEF0A00949F00 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = "es.lproj/WMMSettingsViewController-ipad-landscape.strings"; sourceTree = "<group>"; };
+		76B41F0C190FEF1B00949F00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Base.lproj/WMMSettingsViewController-ipad-portrait.xib"; sourceTree = "<group>"; };
+		76B41F0F190FEF2300949F00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/WMMSettingsViewController-ipad-portrait.strings"; sourceTree = "<group>"; };
+		76B41F11190FEF2600949F00 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = "es.lproj/WMMSettingsViewController-ipad-portrait.strings"; sourceTree = "<group>"; };
+		76B41F14190FF0BB00949F00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/WMMMainStoryboard_iphone.strings; sourceTree = "<group>"; };
+		76B41F16190FF0EC00949F00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/WMMMainStoryboard_ipad.strings; sourceTree = "<group>"; };
 		76B934E718B92BE30053C239 /* GPUImageOutput+GPUImageOutput_WMM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GPUImageOutput+GPUImageOutput_WMM.h"; path = "Extensions/GPUImageOutput+GPUImageOutput_WMM.h"; sourceTree = "<group>"; };
 		76B934E818B92BE30053C239 /* GPUImageOutput+GPUImageOutput_WMM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GPUImageOutput+GPUImageOutput_WMM.m"; path = "Extensions/GPUImageOutput+GPUImageOutput_WMM.m"; sourceTree = "<group>"; };
 		76BB341D18EF5BEF00977278 /* WMMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMMBaseViewController.h; path = Model/WMMBaseViewController.h; sourceTree = "<group>"; };
@@ -233,8 +237,8 @@
 				76A0FAB218B55B4F00D45CA9 /* WMMPhotoCell.m */,
 				76BB342218EF68F600977278 /* WMMSettingsViewController-iphone-landscape.xib */,
 				76BB342918EF690800977278 /* WMMSettingsViewController-iphone-portrait.xib */,
-				76B2875118F2F1FC0041D955 /* WMMSettingsViewController-ipad-landscape.xib */,
-				76B2875318F2F20E0041D955 /* WMMSettingsViewController-ipad-portrait.xib */,
+				76B41F06190FEF0200949F00 /* WMMSettingsViewController-ipad-landscape.xib */,
+				76B41F0D190FEF1B00949F00 /* WMMSettingsViewController-ipad-portrait.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -361,10 +365,10 @@
 				7630032D18A3FEF50086DBDB /* InfoPlist.strings in Resources */,
 				76BB342718EF690800977278 /* WMMSettingsViewController-iphone-portrait.xib in Resources */,
 				76A0FAAD18B5229900D45CA9 /* menu-options.plist in Resources */,
-				76B2875218F2F1FC0041D955 /* WMMSettingsViewController-ipad-landscape.xib in Resources */,
+				76B41F04190FEF0200949F00 /* WMMSettingsViewController-ipad-landscape.xib in Resources */,
 				7620DDFE18B7E32F009453CA /* Localizable.strings in Resources */,
 				76406DDA18B7EC5200D71F5E /* QBImagePickerController.strings in Resources */,
-				76B2875418F2F20E0041D955 /* WMMSettingsViewController-ipad-portrait.xib in Resources */,
+				76B41F0B190FEF1B00949F00 /* WMMSettingsViewController-ipad-portrait.xib in Resources */,
 				7620DDF418B7DE58009453CA /* WMMMainStoryboard_iphone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,8 +451,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				7620DDFA18B7DE69009453CA /* Base */,
-				76A6415618C4D84C004BECEC /* en */,
 				76A13A0318E5CE6F009A4385 /* es */,
+				76B41F14190FF0BB00949F00 /* en */,
 			);
 			name = WMMMainStoryboard_iphone.storyboard;
 			path = Views;
@@ -458,8 +462,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				7620DDFB18B7DE69009453CA /* Base */,
-				7600017F18E310070098207B /* en */,
 				76A13A0418E5CE6F009A4385 /* es */,
+				76B41F16190FF0EC00949F00 /* en */,
 			);
 			name = WMMMainStoryboard_ipad.storyboard;
 			path = Views;
@@ -491,6 +495,28 @@
 				76A13A0618E5CE6F009A4385 /* es */,
 			);
 			name = QBImagePickerController.strings;
+			sourceTree = "<group>";
+		};
+		76B41F06190FEF0200949F00 /* WMMSettingsViewController-ipad-landscape.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76B41F05190FEF0200949F00 /* Base */,
+				76B41F08190FEF0600949F00 /* en */,
+				76B41F0A190FEF0A00949F00 /* es */,
+			);
+			name = "WMMSettingsViewController-ipad-landscape.xib";
+			path = Views;
+			sourceTree = "<group>";
+		};
+		76B41F0D190FEF1B00949F00 /* WMMSettingsViewController-ipad-portrait.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76B41F0C190FEF1B00949F00 /* Base */,
+				76B41F0F190FEF2300949F00 /* en */,
+				76B41F11190FEF2600949F00 /* es */,
+			);
+			name = "WMMSettingsViewController-ipad-portrait.xib";
+			path = Views;
 			sourceTree = "<group>";
 		};
 		76BB342218EF68F600977278 /* WMMSettingsViewController-iphone-landscape.xib */ = {

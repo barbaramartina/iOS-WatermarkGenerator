@@ -1,12 +1,24 @@
 
+/* Class = "IBUIBarButtonItem"; title = " "; ObjectID = "5Na-oM-25a"; */
+"5Na-oM-25a.title" = " ";
+
+/* Class = "IBUIButton"; normalTitle = "Contact us for support"; ObjectID = "9p6-Ha-Jl3"; */
+"9p6-Ha-Jl3.normalTitle" = "Contact us for support";
+
 /* Class = "IBUINavigationItem"; title = "Watermark Maker"; ObjectID = "Bj8-jb-01O"; */
 "Bj8-jb-01O.title" = "Watermark Maker";
 
-/* Class = "IBUILabel"; text = "Watermark text:"; ObjectID = "CUi-PP-IEA"; */
-"CUi-PP-IEA.text" = "Watermark text:";
+/* Class = "IBUINavigationItem"; title = "Support"; ObjectID = "I72-Od-34n"; */
+"I72-Od-34n.title" = "Support";
 
-/* Class = "IBUILabel"; text = "Enter the text you'd like to use in your watermarks"; ObjectID = "j0g-pj-fKE"; */
-"j0g-pj-fKE.text" = "Select the text, color, size and font family to use";
+/* Class = "IBUIButton"; normalTitle = "Share your idea with us"; ObjectID = "TBF-vy-h0J"; */
+"TBF-vy-h0J.normalTitle" = "Share your idea with us";
+
+/* Class = "IBUILabel"; text = "Want to make a suggestion?"; ObjectID = "TIH-ZU-sXD"; */
+"TIH-ZU-sXD.text" = "Want to make a suggestion?";
+
+/* Class = "IBUILabel"; text = "Click on the \"+\" button to select a picture to stamp"; ObjectID = "jvB-V6-QnE"; */
+"jvB-V6-QnE.text" = "Click on the \"+\" button to select a picture to stamp";
 
 /* Class = "IBUINavigationItem"; title = "Settings"; ObjectID = "pkK-la-msv"; */
 "pkK-la-msv.title" = "Settings";
@@ -14,5 +26,8 @@
 /* Class = "IBUIButton"; normalTitle = "Settings"; ObjectID = "psJ-58-Zdk"; */
 "psJ-58-Zdk.normalTitle" = "Settings";
 
-/* Class = "IBUITextField"; placeholder = "watermark text..."; ObjectID = "xro-3I-JHB"; */
-"xro-3I-JHB.placeholder" = "watermark text...";
+/* Class = "IBUILabel"; text = "Need help?"; ObjectID = "t76-xB-jZa"; */
+"t76-xB-jZa.text" = "Need help?";
+
+/* Class = "IBUIBarButtonItem"; title = " "; ObjectID = "ykn-9p-8sV"; */
+"ykn-9p-8sV.title" = " ";

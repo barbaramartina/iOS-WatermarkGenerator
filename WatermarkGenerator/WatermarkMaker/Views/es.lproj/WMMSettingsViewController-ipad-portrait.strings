@@ -1,0 +1,21 @@
+
+/* Class = "IBUILabel"; text = "Preview"; ObjectID = "MGt-8s-c6N"; */
+"MGt-8s-c6N.text" = "Vista Previa";
+
+/* Class = "IBUILabel"; text = "Text:"; ObjectID = "ODF-uy-DDo"; */
+"ODF-uy-DDo.text" = "Texto:";
+
+/* Class = "IBUILabel"; text = "Size:"; ObjectID = "XXX-ML-SHr"; */
+"XXX-ML-SHr.text" = "Tamaño:";
+
+/* Class = "IBUILabel"; text = "Color:"; ObjectID = "jDw-yI-FLK"; */
+"jDw-yI-FLK.text" = "Color:";
+
+/* Class = "IBUILabel"; text = "Font:"; ObjectID = "p8g-2a-PWR"; */
+"p8g-2a-PWR.text" = "Fuente:";
+
+/* Class = "IBUITextField"; placeholder = "watermark text..."; ObjectID = "uZn-dv-iSC"; */
+"uZn-dv-iSC.placeholder" = "marca de agua...";
+
+/* Class = "IBUILabel"; text = "Select the text, color, size and font family to use"; ObjectID = "vgw-Ot-PFN"; */
+"vgw-Ot-PFN.text" = "Selecciona el color, la fuente y el tamaño";

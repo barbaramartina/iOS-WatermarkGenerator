@@ -8,7 +8,7 @@
 		<key>tag</key>
 		<integer>0</integer>
 		<key>icon</key>
-		<string>btn-settings</string>
+		<string></string>
 		<key>option-type</key>
 		<string>0</string>
 		<key>option-value</key>
@@ -20,7 +20,7 @@
 		<key>tag</key>
 		<integer>1</integer>
 		<key>icon</key>
-		<string>btn-support</string>
+		<string></string>
 		<key>option-type</key>
 		<string>0</string>
 		<key>option-value</key>
@@ -32,7 +32,7 @@
 		<key>tag</key>
 		<integer>2</integer>
 		<key>icon</key>
-		<string>btn-heart</string>
+		<string></string>
 		<key>option-type</key>
 		<string>1</string>
 		<key>option-value</key>

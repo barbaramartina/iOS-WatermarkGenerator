@@ -2,9 +2,6 @@
 /* Class = "IBUILabel"; text = "Preview"; ObjectID = "1UE-tZ-fi6"; */
 "1UE-tZ-fi6.text" = "Vista previa";
 
-/* Class = "IBUILabel"; text = "Size:"; ObjectID = "4J3-IK-8vi"; */
-"4J3-IK-8vi.text" = "Tamaño:";
-
 /* Class = "IBUIButton"; normalTitle = "Contact us for support"; ObjectID = "9p6-Ha-Jl3"; */
 "9p6-Ha-Jl3.normalTitle" = "Contáctanos";
 
@@ -13,24 +10,11 @@
 
 /* Class = "IBUINavigationItem"; title = "Support"; ObjectID = "I72-Od-34n"; */
 "I72-Od-34n.title" = "Soporte";
-
-/* Class = "IBUILabel"; text = "Text:"; ObjectID = "Ija-ze-hlW"; */
-"Ija-ze-hlW.text" = "Texto:";
-
-/* Class = "IBUILabel"; text = "Font:"; ObjectID = "QXo-TF-Gc0"; */
-"QXo-TF-Gc0.text" = "Fuente:";
-
 /* Class = "IBUIButton"; normalTitle = "Share your idea with us"; ObjectID = "TBF-vy-h0J"; */
 "TBF-vy-h0J.normalTitle" = "Comparte tus ideas";
 
 /* Class = "IBUILabel"; text = "Want to make a suggestion?"; ObjectID = "TIH-ZU-sXD"; */
 "TIH-ZU-sXD.text" = "¿Quieres hacer sugerencias?";
-
-/* Class = "IBUILabel"; text = "Color:"; ObjectID = "UbX-q8-Yt8"; */
-"UbX-q8-Yt8.text" = "Color:";
-
-/* Class = "IBUILabel"; text = "Select the text, color, size and font family to use"; ObjectID = "j0g-pj-fKE"; */
-"j0g-pj-fKE.text" = "Selecciona el color, fuente, texto y tamaño de fuente";
 
 /* Class = "IBUINavigationItem"; title = "Settings"; ObjectID = "pkK-la-msv"; */
 "pkK-la-msv.title" = "Configuración";
@@ -41,5 +25,7 @@
 /* Class = "IBUILabel"; text = "Need help?"; ObjectID = "t76-xB-jZa"; */
 "t76-xB-jZa.text" = "¿Necesitas ayuda?";
 
-/* Class = "IBUITextField"; placeholder = "watermark text..."; ObjectID = "xro-3I-JHB"; */
-"xro-3I-JHB.placeholder" = "Texto...";
+/* Class = "IBUILabel"; text = "Click on the \"+\" button to select a picture to stamp"; ObjectID = "jvB-V6-QnE"; */
+"jvB-V6-QnE.text" = "Presiona en el botón \"+\" para seleccionar una foto";
+
+
